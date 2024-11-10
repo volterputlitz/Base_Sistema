@@ -1,0 +1,128 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table thead th {
+    height: 25px;
+    vertical-align: middle;
+    line-height: 12px;
+    border-bottom: 9px solid rgba(13, 40, 68, 0.1); 
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    padding: 4px 10px 4px 18px;
+    vertical-align: middle;
+    font-size: 12px;
+    border-bottom: 0px;
+}
+
+.table.table-striped {
+    width: 50%; /* Reduce el ancho de la tabla al 50% */
+    margin-bottom: 1rem;
+    color: #212529;
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    border-radius: 15px; /* Esquinas ovaladas */
+    overflow: hidden; /* Asegura que el contenido no sobresalga de las esquinas redondeadas */
+}
+
+.containert {
+    display: flex; /* Utiliza flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    flex-direction: column; /* Alinea los elementos en columna */
+}
+.table tr, .table td {
+    line-height: 1.42857143;
+    border-top: 0px solid #ddd;
+    padding: 4px 10px 4px 18px;
+    vertical-align: middle;
+    font-size: 12px;
+    border-bottom: 0px;
+}
+.table th{
+    font-family: 'roboto', sans-serif;
+
+    width: 90px;
+    height: 90px;
+    line-height: 30px;
+    padding-top: 1px;
+    border-radius: 4px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #f2f2f2; /* Color de fondo para los encabezados */
+    font-weight: 600; /* Estilo de fuente */
+}
+.titulo-textos {
+padding-left: 13px;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-left {
+    float: left !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+html, body {
+    /* overflow-x: hidden !important; */
+    font-family: 'Roboto', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    background: #e5e8ef;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 16px;
+}
+html {
+    font-size: 16px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
